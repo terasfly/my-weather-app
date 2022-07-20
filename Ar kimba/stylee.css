@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+}
+.calendar-wrapper {
+  align-items: center;
+  margin: 0 auto;
+  width: 280px;
+}
+.calendar-dates {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+.dates:hover {
+  background-color: rgb(63, 14, 238);
+  cursor: pointer;
+}
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+.weekdays {
+  display: grid;
+}
+.weekdays:hover {
+  background-color: red;
+  cursor: pointer;
+}
